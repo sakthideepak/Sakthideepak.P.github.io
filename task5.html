@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="task5.css">
+</head>
+<body><div class="all"><img src="moon-gdfb2a6a06_1280.jpg" width="100%">
+    <div class="whole_container">
+        <div class="reg_form">
+            <h1>Sign Up</h1><br><br>
+            <div id="line"></div>
+            <label id="fname">First Name:</label>
+            <input type="text" id="ftname" placeholder="Enter First name"><br><br>
+            <label id="lname">Last Name:</label>
+            <input type="text" id="Lttname"placeholder="Enter last name"><br><br>
+            <label id="uname">User Name:</label>
+            <input type="text" id="urname"placeholder="Enter user name"><br><br>
+            <label id="ro">Choose your city:</label><br><br>
+            <input type="radio" name="radio" id="button">Chennai
+            <input type="radio" name="radio" id="button">Karaikudi
+            <input type="radio" name="radio" id="button">Pollachi<br><br>
+            <label id="phone">Mobile number:</label>
+            <input type="phone" id="phe"placeholder="Enter number" pattern="[0-9]{10}"><br><br>
+            <label id="date">Select Date:</label>
+            <input type="date" name="date" id="dday" placeholder="Enter Date"><br><br>
+            <label id="email">Email:</label>
+            <input type="email" name="email" id="eemail" placeholder="Enter Email"><br><br>
+            <label id="password">Password:</label>
+            <input type="password" name="password" id="pword"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"><br><br>
+            <label id="password">Confirm Password:</label>
+            <input type="password" name="password" id="cword"  pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br><br>
+            <button id="btn"> Submit</button>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
